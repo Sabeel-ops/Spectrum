@@ -1,0 +1,49 @@
+.details{
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #b5debf;
+    box-shadow:  8px 8px 16px #9cbfa4,
+                 -8px -8px 16px #cefdda;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.title{
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+.company{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.font_size{
+    font-weight: 600;
+    font-family: 'Labrada', serif;
+}
+
+.amount{
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date{
+    font-family: 'Charmonman', cursive;
+}
+
+
+.job_readmore_btn{
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,120 @@
+.Recent_Qn{
+    width: 23%;
+    border-radius: 20px;
+    background-color: #c0e5ce;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 15.4%;
+    height: max-content;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.Recent_Qn::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.heading_recent{
+    text-align: center;
+}
+
+.recent_qn_list{
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.Questions{
+    width: 73.6%;
+    position: absolute;
+    margin-left: 25.5%;
+    padding: 28px;
+    border-radius: 20px;
+    background-color: #D0E7D9;
+    overflow-y: auto;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    height: calc(100vh - 15.4%); /* Adjusted height */
+
+    /* Hide vertical scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.Questions::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.clear_your_doubts{
+    margin-left: 88%;
+    padding-bottom: 5px;
+}
+
+.loading-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  .circle {
+    width: 20px; /* Adjust the size of the circle */
+    height: 20px; /* Adjust the size of the circle */
+    border: 2px solid #ccc; /* Adjust the border color */
+    border-top-color: #888; /* Adjust the color of the spinning part */
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
+/* @media screen and (max-width: 768px) {
+    .Recent_Qn{
+        display: none;
+    }
+    
+    .Questions{
+        width: 100%;
+        background-color: #F1FFE5;
+        position: absolute;
+        margin-left: 0;
+        padding: 28px;
+    }
+} */
+@media screen and (max-width: 768px) {
+    .Recent_Qn {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    position: static;
+    }
+    
+    .Questions {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px;
+    position: static;
+    background-color: #D0E7D9;
+    }
+    
+    .recent_qn_list {
+    margin-left: 0;
+    }
+    
+    .heading_recent {
+    text-align: left;
+    margin-left: 5px;
+    }
+    }

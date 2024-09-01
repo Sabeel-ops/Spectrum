@@ -1,0 +1,78 @@
+.new_qn_add_form {
+  width: 100%;
+}
+
+.qn_form_control {
+  align-items: center;
+}
+
+.qn_form {
+  height: 5%;
+}
+
+.qn_form input {
+  background-color: #dae6cf;
+}
+
+.b3,
+.b2 {
+  display: inline;
+  border-radius: 2px;
+}
+
+
+
+.question_area{
+  border: none;
+  width: 80%;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #dae6cf;
+  font-size: larger;
+  text-align: center;
+}
+.qn_titles{
+    border: none;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #dae6cf;
+    font-size: larger;
+    text-align: center;
+}
+
+.qn_topics {
+  border: 0px solid #000;
+  background-color: #dae6cf;
+  border-radius: 4px;
+  font-size: medium;
+  width: 50%;
+  margin: 4px;
+  height: 30px;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.b2 {
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.qn_button {
+  height: 25px;
+}
+/* .checkbox_description{
+    background-color: rgb(236, 248, 233);
+    justify-content: space-between;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 0px 5px 0px 5px;
+}
+
+.qn_checkbox{
+    margin-top: 5px;
+    margin-left: 5px;
+} */

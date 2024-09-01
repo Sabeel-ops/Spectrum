@@ -1,0 +1,13 @@
+.new_answer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .new_answer button{
+    background-color: rgb(27, 194, 82);
+  }
+
+.new_answer_btn{
+    align-items: center;
+    background-color: aquamarine;
+}

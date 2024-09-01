@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar_list {
+    flex: 1;
+    text-align: right;
+    font-weight: 600;
+  }
+
+  .logo_image{
+    width: 10%;
+    height: 60px;
+    margin-left: -5%;
+    border-radius: 10px;
+  }
+  
+  .navbar_list ul {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .navbar_list li {
+    display: inline;
+    margin-left: 20px;
+    padding: 2px;
+  }
+  
+  .navbar_list li a {
+    text-decoration: none;
+  }
+  
+  .navbar_list li a:hover{
+    color: rgb(129, 214, 11);
+  }
+  .navbar_list li a:active {
+    color: rgb(45, 214, 11);
+  }
+
+  .active{
+    color: rgb(47, 174, 22);
+  }
+  
+  .hamburger-menu {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      display: none;
+    }
+    
+    .navbar_list {
+      display: none;
+    }
+  
+    li {
+      display: block;
+    }
+  
+    .mobile_navbar {
+      
+    }
+  
+    .hamburger-menu {
+      display: block;
+      text-align: right;
+    }
+  
+    .navbar_list_mobile {
+      margin-left: 65%;
+      width: 30%;
+      display: block;
+      position: static;
+      padding: auto;
+      text-align: right;
+    }
+  
+    li a {
+      display: block;
+      padding-right: 10px;
+    }
+  
+    li a:hover,
+    li a:active {
+      color: rgb(214, 11, 11);
+      text-decoration: underline;
+    }
+  }
+  

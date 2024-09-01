@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.left_bar {
+    background-color: #95c8a170;
+    border-radius: 20px;
+    width: 19%;
+    position: fixed;
+    top: 15.4%;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.left_bar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+
+h3 {
+    font-family: sans-serif;
+    padding-top: 12px;
+    color: #568B65;
+}
+
+.middle_bar {
+    background: #D0E7D9;
+    box-shadow:  5px 5px 7px #bbd0c3,
+                 -5px -5px 7px #e5feef;
+    border-radius: 20px;
+    width: 60%;
+    position: absolute;
+    left: 19.5%;
+    right: 20%;
+    overflow-y: auto;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    height: calc(100vh - 15.4%); /* Adjusted height */
+
+    /* Hide vertical scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.middle_bar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.right_bar {
+    background-color: #95c8a170;
+    border-radius: 20px;
+    width: 20%;
+    position: fixed;
+    top: 15.4%;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.right_bar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+
+@media screen and (max-width: 768px) {
+    .left_bar{
+        display: none;
+    }
+    h3{
+        font-family: sans-serif;
+        padding-top: 5px;
+        color: #568B65;
+        font-size: smaller;
+    }
+    .middle_bar{
+        background-color: #D0E7D9;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .right_bar{
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+.recent_qn_wrapper {
+  background: #8adbac63;
+  box-shadow: 8px 8px 13px #86ba9c, -8px -8px 13px #a0deba;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-right: 2px;
+  margin-bottom: 20px;
+}
+.recent_qn_title,
+.solve_qn {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.recent_qn_title {
+  font-weight: 700;
+}
+
+.qn_info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .qn_pic {
+    margin-right: 10px;
+  }
+  
+  .quest_profile_pic {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .qn_details {
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .recent_qn_author {
+    margin-right: 10px;
+  }
+
+  
+  
